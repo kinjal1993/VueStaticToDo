@@ -1,0 +1,20 @@
+{
+  "name": "vuestatictodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinjal1993/VueStaticToDo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinjal1993/VueStaticToDo/issues"
+  },
+  "homepage": "https://github.com/kinjal1993/VueStaticToDo#readme"
+}
