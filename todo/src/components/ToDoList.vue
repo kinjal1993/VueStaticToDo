@@ -60,6 +60,12 @@
               </span>
               <span v-else>
                 <div class="btn-group" role="group">
+                  <router-link
+                    class="btn btn-default btn-sm"
+                    :to="item.link"
+                  >
+                    <i class="fa fa-link"></i>
+                  </router-link>
                   <button
                     @click.prevent="setUpdatingItem(item.id, item.title)"
                     type="button"

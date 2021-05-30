@@ -3,16 +3,15 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <a class="navbar-brand" href="#"
-          ><img height="20" alt="Vue logo" :src="logo"
-        /></a>
+        <router-link :to="{name:'home'}" class="navbar-brand"><img height="20" alt="Vue logo" :src="logo"
+        /></router-link>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Terms</a></li>
+          <li><router-link :to="{name:'about'}">About</router-link></li>
+          <li><router-link :to="{name:'terms'}">Terms</router-link></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
