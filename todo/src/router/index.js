@@ -4,6 +4,7 @@ import Terms from '@/components/Terms'
 import Home from '@/components/Home'
 import NotFound from '@/components/NotFound'
 import ToDoItem from '@/components/ToDoItem'
+import PlayGround from '@/components/PlayGround'
 
 const routes = [
   {
@@ -15,6 +16,11 @@ const routes = [
     path: "/about",
     name: "about",
     component: About,
+  },
+  {
+    path: "/play-ground",
+    name: "play-ground",
+    component: PlayGround,
   },
   {
     path: "/terms",
